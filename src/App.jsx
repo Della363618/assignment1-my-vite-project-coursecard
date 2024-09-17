@@ -1,4 +1,4 @@
-import { CourseCard } from './components/CourseCard.jsx'
+import  {CourseCard1}  from './components/CourseCard1.jsx'
 //import CourseCardClass from './components/CourseCardClass.jsx'
 import './App.css'
 
@@ -8,11 +8,12 @@ function App() {
     description:'Learn React',
     duration:'3 months',
     instructor:'John Doe',
+    difficulty:'Beginner',
   }
 
   return (
   <>
-    <CourseCard course={course}/>
+    <CourseCard1 course={course}/>
   </>
   )
 }
